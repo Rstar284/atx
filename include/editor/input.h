@@ -6,7 +6,7 @@ enum ed_keys {
   ARR_R,
   ARR_U,
   ARR_D,
-  DEL_KEY
+  DEL_KEY,
 };
 
 #include <stdio.h>

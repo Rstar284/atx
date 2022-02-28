@@ -63,7 +63,6 @@ char* ASMI_HL_keywords[] = {
 
 /// AT&T (ew)
 
-
 // Python
 char* PY_HL_extensions[] = { ".py", NULL };
 char* PY_HL_keywords[] = {
@@ -74,6 +73,12 @@ char* PY_HL_keywords[] = {
 
   "False|", "None|", "True|", "int|", "float|", "tuple|", "dict|", "str|",
   NULL
+};
+
+// JS
+char* JS_HL_extensions[] = { ".js", NULL };
+char* JS_HL_keywords[] = {
+
 };
 
 // DB of syntax highlighting
